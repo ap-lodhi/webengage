@@ -39,7 +39,7 @@ document.querySelector('#form').addEventListener('click', (e)=>{
 
     if(a && b){
         localStorage.setItem('user', JSON.stringify({email, number, code}))
-        window.location.href = '/contact-details.html';
+        window.location.href = '/https://ap-lodhi.github.io/contact-details.html';
     }
     
    });
